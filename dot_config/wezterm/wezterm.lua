@@ -28,7 +28,7 @@ config.keys = {
   -- split panes left and right
     {
         key = "\\",
-        mods = "CTRL",
+        mods = "ALT",
         action = wezterm.action.SplitHorizontal
         (
             {
@@ -40,7 +40,7 @@ config.keys = {
     -- split panes top and bottom
     {
         key = "\\",
-        mods = "ALT",
+        mods = "CTRL",
         action = wezterm.action.SplitVertical
         (
             {
