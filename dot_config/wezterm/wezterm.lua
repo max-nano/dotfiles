@@ -16,12 +16,12 @@ config.disable_default_key_bindings = true
 -- action = wezterm.action.CloseCurrentTab({confirm = true})
 config.skip_close_confirmation_for_processes_named = {}
 
-config.font_size = 12
+config.font_size = 14
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
 -- config.color_scheme = '...'
- 
+
 
 config.keys = {
 
@@ -166,9 +166,6 @@ config.keys = {
         mods = "CTRL",
         action = wezterm.action.DecreaseFontSize
     },
-
-
-
 }
 
 return config
