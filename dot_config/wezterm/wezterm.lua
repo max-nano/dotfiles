@@ -1,6 +1,8 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
+-- if wezterm does not start, disable wayland and use xwayland
+--config.enable_wayland = false
 
 config.window_padding = {
     left = 15,
